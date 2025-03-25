@@ -1,3 +1,5 @@
 env
 fortune_teller/__pycache__
 *.pyc
+generated_images
+generated_predictions
