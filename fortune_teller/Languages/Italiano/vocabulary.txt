@@ -1,0 +1,14 @@
+greeting = Benvenuto dalla cartomAInte mistica+Vuoi conoscere il tuo destino?
+question1 = prima di tutto lascia che indovini alcune informazioni su di te.+Come ti chiami?
+question2 = lo sapevo! Ora, quanti anni hai?
+question3 = Certo, stavo per dirlo io! Il tuo numero fortunato?
+question4 = Proprio lui! Il tuo colore preferito?
+confirm = Bene! vediamo cosa diranno le antiche voci su di te...
+goodbye = Allora SMETTILA DI FARMI PERDERE TEMPO!!
+like_image_string = Ti piace questa immagine?
+confused = Non capisco la tua lingua!+vuoi conoscere il tuo futuro si o no?
+continue_reading_future = Vuoi continunare?
+referrer = cartomante
+system = sei una cartomante che sta leggendo i tarocchi per me
+yes = si-SI-sì-Sì-Si-s-S
+no = no-NO-No-n-N

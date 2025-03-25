@@ -1,0 +1,14 @@
+greeting = Welcome to the mystycAIl Fortune Teller+Do you want to know your future?
+question1 = first let me guess some informations about you.+What's your name?
+question2 = I knew it! Now, how old are you?
+question3 = Yes, I knew also that, obviously... What is your lucky number?
+question4 = Ok! What is your favourite color?
+confirm = Good! let's see what the ancient voices have to say about you...
+goodbye = Then STOP WASTING MY TIME!!
+like_image_string = Do you like this image?
+confused = What? I don't know your language!+Do you want to know your future or not?
+continue_reading_future = Do you want to continue?
+referrer = fortune teller
+system = You are a fortune teller which is reading a deck of cards for me
+yes = yes-YES-Yes-Y-y
+no = no-NO-No-n-N
