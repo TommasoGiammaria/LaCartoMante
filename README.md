@@ -10,6 +10,26 @@ It retrieves a card name from a random pool of adjectives and subjects (and also
 At each step the user can either change the card image, customize it with a specific prompt, ask more info about the current interpretation or skip to the next one.
 If the user wants to stop, the fortune teller will give a summary interpretation of the picked cards and saves everything in a pdf file.
 
+# Installation
+
+Setup a virtual environment and install the required dependencies (windows: replace source venv/bin/activate with simply .venv/Scripts/activate):
+
+```
+pip3 install venv
+python3 -m venv venv
+source venv/bin/activate
+pip3 install -e .
+```
+
+OR use the requirements.txt file (`pip3 install -r requirements.txt`)
+# Usage
+
+Just launch the entry point with:
+
+```
+fortune_teller-cli
+```
+
 
 ## Code
 The code is launched with `main.py`, this handles the initial interaction with the user (starting questions) and creates a **Fortune_Teller** object.

@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fortune_teller"
+version = "0.0.1"
+authors = [
+  {name = "Tommaso Giammaria", email = "tommaso.giammaria1412@gmail.com"},
+]
+
+dependencies = [
+    "matplotlib",
+    "pillow",
+    "pollinations",
+    "requests",
+]
+
+[project.scripts]
+fortune_teller-cli = "fortune_teller.main:main"
