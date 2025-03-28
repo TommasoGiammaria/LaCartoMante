@@ -14,9 +14,10 @@ TEST_MODE = False
 
 
 def main():
+    # set the base path to the folder where the script is located
     basepath = os.path.split(os.path.dirname(__file__))[0]
 
-
+    # set the path to the images folder and the pdf folder
     save_path = os.path.join(basepath, "generated_images")
     os.makedirs(save_path, exist_ok=True)
 

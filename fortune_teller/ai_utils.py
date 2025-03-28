@@ -22,7 +22,9 @@ def generate_ai_text(
     prev_messages : list = []
 ):
     """
-    function to generate text from single string prompt
+    function to generate text from single string prompt.
+    default model is openai, but it can be changed to pollinations or other models.
+    NB: the image is not used in the prompt, but it can be added to the model to generate a reply.
     """
     text_model = pollinations.Text(
         model=ai_model, system=system_string, messages=[], contextual=True
@@ -44,7 +46,7 @@ def generate_ai_text(
 
 def generate_ai_reply(text_model, string_prompt : str = ""):
     """
-    function to interact with multiple prompts
+    function to interact with multiple prompts, generating a text reply at each step.
     """
     response = text_model(prompt=string_prompt, encode=True)
     response_string = str(response.response)
@@ -92,7 +94,7 @@ def generate_ai_image_reply(
         save_path : str = "generated_images",
         language : str = "English"):
     """
-    function to interact with multiple prompts (generating an image at each step)
+    function to interact with multiple prompts (generating a new image starting from the previous at each step)
     """
     image = None
     if language == "English":
