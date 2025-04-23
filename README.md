@@ -32,7 +32,8 @@ Just launch the entry point with:
 ```
 fortune_teller-cli
 ```
-
+A prompt will pop-up with a greeting message and the first question from the fortune teller.
+You can interact with the Fortune Teller writing with the keyboard.
 
 ## Code
 The code is launched with `main.py`, this handles the initial interaction with the user (starting questions) and creates a **Fortune_Teller** object.
