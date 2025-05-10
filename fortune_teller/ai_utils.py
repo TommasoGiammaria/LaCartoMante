@@ -121,7 +121,6 @@ def generate_ai_image_reply(
     return replydict
 
 
-
 class Fortune_Teller:
     """
     The Fortune Teller class handles all the predictions and interactions with the user.
