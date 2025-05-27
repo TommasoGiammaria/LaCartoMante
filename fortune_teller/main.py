@@ -10,6 +10,7 @@ Enable the test mode to skip the actual fortune telling and just print the picke
 TEST_MODE = True
 """
 
+
 TEST_MODE = False
 
 
