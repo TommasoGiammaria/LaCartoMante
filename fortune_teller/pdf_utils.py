@@ -4,6 +4,8 @@ from PIL import Image
 
 """
 This module contains the functions to write texts and images on a PDF file.
+If there is only an image or a text, the content is reported on the PDF in standard size, otherwise it fill be formatted as Image (left) + Textual description (Right).
+The text is format is changed in compliance to the image size to fit in a single page.
 """
 
 
