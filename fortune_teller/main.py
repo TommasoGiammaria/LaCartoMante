@@ -3,8 +3,8 @@ import sys
 
 from matplotlib.backends.backend_pdf import PdfPages
 
-from fortune_teller.ai_utils import *
-from fortune_teller.pdf_utils import _image_text_to_pdf, _text_to_pdf
+from ai_utils import *
+from pdf_utils import _image_text_to_pdf, _text_to_pdf
 """
 Enable the test mode to skip the actual fortune telling and just print the picked cards
 TEST_MODE = True
