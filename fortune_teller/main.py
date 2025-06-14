@@ -5,7 +5,6 @@ from matplotlib.backends.backend_pdf import PdfPages
 
 from ai_utils import *
 from pdf_utils import _image_text_to_pdf, _text_to_pdf
-
 """
 Enable the test mode to skip the actual fortune telling and just print the picked cards
 TEST_MODE = True
