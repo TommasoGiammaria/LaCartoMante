@@ -14,6 +14,7 @@ It can also generate a text prompt for the user to interpret the card image or t
 """
 
 
+# we set the default model to OpenAI, but it can be changed to Pollinations or other models
 def generate_ai_text(
     string_prompt : str = "",
     system_string : str = "You are a fortune teller reading cards for me",
