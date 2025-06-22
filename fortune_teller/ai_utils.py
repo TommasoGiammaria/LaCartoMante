@@ -13,7 +13,6 @@ The "golden cards" are also available, these are pre-defined cards with a specif
 It can also generate a text prompt for the user to interpret the card image or to change the card image.
 """
 
-
 # we set the default model to OpenAI, but it can be changed to Pollinations or other models
 def generate_ai_text(
     string_prompt : str = "",
