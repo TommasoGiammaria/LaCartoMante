@@ -1,7 +1,6 @@
 from matplotlib.backends.backend_pdf import PdfPages
 from matplotlib.figure import Figure
 from PIL import Image
-
 """
 This module contains the functions to write texts and images on a PDF file.
 If there is only an image or a text, the content is reported on the PDF in standard size, otherwise it fill be formatted as Image (left) + Textual description (Right).

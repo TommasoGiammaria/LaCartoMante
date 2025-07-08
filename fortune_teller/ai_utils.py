@@ -5,7 +5,6 @@ from datetime import datetime
 
 import pollinations
 from PIL import Image
-
 """
 This module contains the functions to interact with the Pollinations API.
 The fortune teller class handles the card generation picking a random card from a pool names and adjectives.
