@@ -1,7 +1,10 @@
 cat
-bulldogcat
-bulldogcat
-bulldogcat
+bulldog
+cat
+bulldog
+cat
+bulldog
+cat
 bulldog
 yoga teacher
 clown
