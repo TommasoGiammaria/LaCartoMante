@@ -1,6 +1,6 @@
 # MysticAIl Fortune Teller
 
--UNDER DEVELOPMENT-
+--UNDER DEVELOPMENT--
 
 ## Description
 Simple project for a Fortune Teller, which generates random cards and predicts your future with AI.
